@@ -1,0 +1,80 @@
+# =========================
+# TFM - Datos y artefactos pesados
+# =========================
+
+# RAW / DATA (no subir datos)
+00.data/
+01.RAW/
+**/raw/
+**/data/
+**/*.csv
+**/*.tsv
+**/*.txt
+**/*.xlsx
+**/*.xls
+**/*.json
+**/*.parquet
+**/*.avro
+**/*.orc
+**/*.delta/
+**/*.db
+**/*.sqlite
+**/*.log
+
+# Outputs y temporales de Spark
+**/_spark_metadata/
+**/_temporary/
+**/_SUCCESS
+**/._SUCCESS*
+**/*.crc
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Credenciales (muy importante)
+**/*key*.json
+**/*credentials*.json
+**/*secret*.json
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.kdb
+**/*.jks
+
+# Comprimidos / dumps
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+*.gz
+*.bak
+
+# OneDrive / Windows
+~$*.*
