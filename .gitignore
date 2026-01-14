@@ -3,8 +3,8 @@
 # =========================
 
 # RAW / DATA (no subir datos)
-00.data/
-01.RAW/
+#00.data/
+#01.RAW/
 **/raw/
 **/data/
 **/*.csv
